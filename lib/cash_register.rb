@@ -25,11 +25,11 @@ end
     end
 
     def items
-      @total-= @lastprice
+      
     end
 
     def void_last_transaction
-
+  @total-= @lastprice
     end
 
 
