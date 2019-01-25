@@ -12,9 +12,9 @@ attr_accessor :total, :price,:title, :discount
   end
 
     def apply_discount
-      
+
     end
-  
+
 end
 
 
