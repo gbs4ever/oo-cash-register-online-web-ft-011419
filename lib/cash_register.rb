@@ -11,7 +11,11 @@ attr_accessor :total, :price,:title, :discount
     @total += price * quantity
   end
 
-
+    def apply_discount
+      
+    end
+  
+end
 
 
 
