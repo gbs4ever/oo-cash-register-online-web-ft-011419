@@ -23,7 +23,7 @@ end
       "There is no discount to apply."
       end
     end
-de
+
 
 
     def void_last_transaction
