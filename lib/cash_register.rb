@@ -11,7 +11,7 @@ attr_accessor :total, :price,:title, :discount
 @total == price * quanity
   end
 
-  def 
+  
 
 
 
