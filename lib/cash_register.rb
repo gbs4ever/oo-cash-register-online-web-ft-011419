@@ -27,7 +27,7 @@ end
 
 
     def void_last_transaction
-@total-@last_add
+@total-=@last_add
     end
 
 
