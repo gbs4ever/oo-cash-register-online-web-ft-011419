@@ -13,7 +13,7 @@ attr_reader :item, :discount
     @total += price * quantity
 
   @items += [title] * quantity
-  
+
 end
 
     def apply_discount
