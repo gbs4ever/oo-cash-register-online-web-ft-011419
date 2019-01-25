@@ -15,7 +15,7 @@ attr_accessor :total, :price,:title, :discount
 
     end
 
-end
+
 
 
 
