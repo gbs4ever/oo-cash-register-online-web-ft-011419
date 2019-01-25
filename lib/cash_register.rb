@@ -10,6 +10,7 @@ attr_reader :item, :discount
 
   def add_item(title, price, quantity=1)
     @total += price * quantity
+    
   end
 
     def apply_discount
@@ -21,7 +22,13 @@ attr_reader :item, :discount
       end
     end
 
+    def items
+      @total-= @lastprice
+    end
 
+    def void_last_transaction
+      
+    end
 
 
 
